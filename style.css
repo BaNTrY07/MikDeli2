@@ -240,7 +240,7 @@ nav a{
 
 .menu-grid{
     display:grid;
-    grid-template-columns:repeat(3,1fr);
+    grid-template-columns:repeat(auto-fit, minmax(280px, 1fr));
     gap:25px;
 }
 
@@ -252,7 +252,7 @@ nav a{
 
 .card img{
     width:100%;
-    height:160px;
+    height:220px;
     object-fit:cover;
     border-radius:10px;
     margin-bottom:15px;
@@ -606,17 +606,21 @@ footer nav a{
     }
 
     .menu{
-        padding: 30px 15px;
-    }
+    padding:30px 15px;
+}
 
-    .menu-grid{
-        grid-template-columns: 1fr;
-    }
+.menu-grid{
+    grid-template-columns:1fr;
+}
 
-    .card img{
-        height: 220px;
-        width: 100%;
-        object-fit: cover;
-        border-radius: 12px;
-    }
+.card{
+    max-width:350px;
+    width:100%;
+    margin:0 auto;
+}
+
+.card img{
+    height:220px;
+}
+    
 }
