@@ -13,7 +13,7 @@ body{
 
 a{
     text-decoration:none;
-    color:#f6b93b;
+    color:#f6b93b;  
 }
 
 /* Header */
@@ -541,9 +541,9 @@ footer nav a{
 @media (max-width: 768px){
 
     header{
-        padding:20px;
         flex-direction:column;
-        gap:15px;
+        align-items:center;
+        gap:10px;
     }
 
     .hero{
