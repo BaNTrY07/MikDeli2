@@ -561,20 +561,27 @@ footer nav a{
     }
 
     nav{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-        width: 100%;
-        gap: 12px;
-    }
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+    width:100%;
+}
 
-    nav a{
-        margin: 0;
-        font-size: 15px;
-        padding: 6px 10px;
-        text-align: center;
-    }
+nav > a{
+    font-size:18px;
+    margin:0;
+}
+
+/* Face ca iconițele să treacă pe rândul următor */
+.social-icons{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin-top:10px;
+}
 
     /* HERO fix */
     .hero{
