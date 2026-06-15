@@ -550,23 +550,29 @@ footer nav a{
         align-items: center;
         justify-content: center;
         padding: 15px 10px;
+    }
+
+    .logo{
+        font-size: 32px;
         text-align: center;
     }
 
     nav{
         display: flex;
         justify-content: center;
+        align-items: center;
         flex-wrap: wrap;
-        gap: 15px;
+        gap: 12px;
         margin-top: 10px;
+        width: 100%;
     }
 
     nav a{
-        margin-left: 0;
+        margin: 0;
+        font-size: 16px;
     }
 
     .social-icons{
-        display: flex;
         justify-content: center;
         width: 100%;
         margin-top: 15px;
