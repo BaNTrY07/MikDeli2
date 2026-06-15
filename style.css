@@ -604,4 +604,19 @@ footer nav a{
         width: 200px;
         height: 200px;
     }
+
+    .menu{
+        padding: 30px 15px;
+    }
+
+    .menu-grid{
+        grid-template-columns: 1fr;
+    }
+
+    .card img{
+        height: 220px;
+        width: 100%;
+        object-fit: cover;
+        border-radius: 12px;
+    }
 }
