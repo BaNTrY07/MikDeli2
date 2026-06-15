@@ -549,63 +549,59 @@ footer nav a{
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        text-align: center;
         padding: 15px 10px;
-        gap: 10px;
+        gap: 12px;
     }
 
     .logo{
         font-size: 30px;
+        width: 100%;
         text-align: center;
     }
 
     nav{
         display: flex;
-        flex-wrap: wrap;
         justify-content: center;
         align-items: center;
-        gap: 10px;
+        flex-wrap: wrap;
         width: 100%;
+        gap: 12px;
     }
 
     nav a{
         margin: 0;
         font-size: 15px;
-        padding: 5px 8px;
+        padding: 6px 10px;
+        text-align: center;
     }
 
-    .social-icons{
-        display: flex;
-        justify-content: center;
-        flex-wrap: wrap;
-        width: 100%;
-        gap: 10px;
-    }
-
+    /* HERO fix */
     .hero{
-    grid-template-columns: 1fr;
-    text-align: center;
-    padding: 40px 15px;
-}
+        grid-template-columns: 1fr;
+        text-align: center;
+        padding: 40px 15px;
+    }
 
-.hero-content{
-    padding: 0;
-}
+    .hero-content{
+        padding: 0;
+    }
 
-.hero-image{
-    margin-bottom: 20px;
-}
+    .hero-image{
+        margin-bottom: 20px;
+    }
 
-.hero-content h1{
-    font-size: 28px;
-}
+    .hero-content h1{
+        font-size: 28px;
+    }
 
-.hero-content p{
-    font-size: 14px;
-    padding: 0 10px;
-}
+    .hero-content p{
+        font-size: 14px;
+        padding: 0 10px;
+    }
 
-.hero-image img{
-    width: 200px;
-    height: 200px;
-}
+    .hero-image img{
+        width: 200px;
+        height: 200px;
+    }
 }
