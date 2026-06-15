@@ -567,7 +567,6 @@ footer nav a{
     align-items:center;
     gap:15px;
     width:100%;
-    transform:translateX(-10px);
 }
 
 nav > a{
@@ -582,7 +581,7 @@ nav > a{
     justify-content:center;
     gap:15px;
     margin-top:10px;
-    transform:translateX(-10px);
+    margin-left:-15px;
 }
 
     /* HERO fix */
